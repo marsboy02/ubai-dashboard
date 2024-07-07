@@ -25,6 +25,7 @@ EOF
 # always
 systemctl enable node_exporter.service
 
+# start 
 systemctl start node_exporter.service
 
 # check status
